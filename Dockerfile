@@ -10,6 +10,8 @@ COPY ./requirements.txt /app/requirements.txt
 
 RUN pip install -r requirements.txt
 
-CMD [ "python" ,"manage.py","seed"] 
+RUN python manage.py seed
 
 COPY . /app
+
+CMD [ "python" ,"manage.py","runserver",$PORT] 
