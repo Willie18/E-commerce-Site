@@ -172,6 +172,10 @@ TAGGIT_CASE_INSENSITIVE = True
 
 TAGGIT_STRIP_UNICODE_WHEN_SLUGIFYING=True
 
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 # SESSION_COOKIE_HTTPONLY=True
 
 # SESSION_ENGINE="django.contrib.sessions.backends.signed_cookies"
