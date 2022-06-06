@@ -21,5 +21,6 @@ def api_root(request,format=None):
         "products":reverse("product-list",request=request,format=format),
         "orders":f"{request.build_absolute_uri()}cart",
         "tokens":f"{request.build_absolute_uri()}auth",
+        "users":f"{request.build_absolute_uri()}auth",
 })
 
