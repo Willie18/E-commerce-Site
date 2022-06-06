@@ -197,6 +197,8 @@ def cartRootView(request):
     routes={
         "add-item-to-cart":f"{request.build_absolute_uri()}add_item_to_cart",
         "remove-item-from-cart":f"{request.build_absolute_uri()}remove_item_from_cart",
-        "list-cart-items":f"{request.build_absolute_uri()}list_cart_items"
+        "list-cart-items":f"{request.build_absolute_uri()}list_cart_items",
+        "check-out":f"{request.build_absolute_uri()}check_out",
+        "orders":f"{request.build_absolute_uri()}orders"
     }
     return Response(data=routes,status=status.HTTP_202_ACCEPTED)
