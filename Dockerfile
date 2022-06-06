@@ -14,7 +14,7 @@ RUN python manage.py makemigrations
 
 RUN python manage.py migrate 
 
-RUN echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', 'admin@myproject.com', 'password')" | python manage.py shell
+RUN echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser( 'admin@myproject.com','admin', 'password')" | python manage.py shell
 
 RUN python manage.py seed
 
