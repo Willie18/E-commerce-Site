@@ -38,5 +38,7 @@ A few things you can do with this api:
 
 8.Visit [http://127.0.0.1:8000/api/v1/swagger/] for API Documentation Page
 
+9.Visit [http://browsable-api.herokuapp.com/api/v1] to view the live app hosted at
+
 
 # ecommerce-site
