@@ -42,9 +42,10 @@ A few things you can do with this api:
 
 10.Visit the User endpoint and create a user account
 
-11.Admin credentials are email:-    #admin@myproject.com
-                         password:- #password
- I trust that you will #behave nicely# now that I have given you admin credentials to the site 👍
+11.Admin credentials are 
+email:-    admin@myproject.com
+password:- password
+I trust that you will #behave nicely# now that I have given you admin credentials to the site 👍
 
 
 # ecommerce-site
