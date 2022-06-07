@@ -40,5 +40,11 @@ A few things you can do with this api:
 
 9.Visit [http://browsable-api.herokuapp.com/api/v1] to view the live app hosted at
 
+10.Visit the User endpoint and create a user account
+
+11.Admin credentials are email:-    #admin@myproject.com
+                         password:- #password
+ I trust that you will #behave nicely# now that I have given you admin credentials to the site 👍
+
 
 # ecommerce-site
