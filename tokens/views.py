@@ -22,10 +22,10 @@ from .serializers import (
 @api_view(["GET"])
 def getroutes(request):
     routes={
-        "obtain_token":reverse("token_obtain_pair"),
-        "blacklist_token":reverse("token_blacklist"),
-        "refresh_token":reverse("token_refresh"),
-        "verify_token":reverse("token_verify")
+        "obtain_token":f"{reqeuest.build_absolute_uri()}token",
+        "blacklist_token":f"{reqeuest.build_absolute_uri()}token/blacklist",
+        "refresh_token":f"{reqeuest.build_absolute_uri()}token/refresh",
+        "verify_token":f"{reqeuest.build_absolute_uri()}token/verify",
         }
     
     return Response(routes)
